@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Bai3</title>
+</head>
+<body>
+    <?php
+    $a=["Italy" => "Rome", "Luxembourg" => "Luxembourg", "Belgium" => "Brussels", "Denmark" => "Copenhagen", "Finland" => "Helsinki", "France" => "Paris", "Slovakia" => "Bratislava", "Slovenia" => "Ljubljana", "Germany" => "Berlin", "Greece" => "Athens", "Ireland" => "Dublin", "Netherlands" => "Amsterdam", "Austria" => "Vienna", "Poland" => "Warsaw"];
+    echo "<ul>";
+    foreach($a as $quocgia => $thudo){
+        echo "<li>Thu do cua $quocgia la $thudo</li>";
+    }
+    echo "</ul>";
+    ?>
+</body>
+</html>
