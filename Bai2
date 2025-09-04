@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2</title>
+</head>
+<body>
+        <?php
+        $arr=array("Tokyo", "Mexico City", "New York City", "Mumbai", "Seoul", "Shanghai", "Lagos", "Buenos Aires", "Cairo", "London");
+        foreach($arr as $i){
+            echo "$i, ";
+        }
+        
+        sort($arr);
+        echo "<br><ul>";
+        foreach($arr as $i){
+            echo "<li>$i</li>";
+        }
+        echo "</ul>";
+
+        $arr[]="Los Angeles";
+        $arr[]= "Calcutta";
+        $arr[]= "Osaka";
+        $arr[]= "Beijing";
+        sort($arr);
+        echo "<br><ul>";
+        foreach($arr as $i){
+            echo "<li>$i</li>";
+        }
+        echo "</ul>";
+        ?>
+</body>
+</html>
